@@ -1,0 +1,74 @@
+
+On 19/08/06, Toby Smithe <toby.smithe@gmail.com> wrote:
+
+> On Sat, 2006-08-19 at 22:48 +1000, Sridhar Dhanapalan wrote:
+> > On Saturday 19 August 2006 22:05, William Anderson <neuro@well.com>
+> wrote:
+> > > Sridhar Dhanapalan wrote:
+> > > > On Tuesday 15 August 2006 19:46, "Matthew Vermeulen"
+> > > > <mattvermeulen@gmail.com>
+> > > >
+> > > > wrote:
+> > > >> I definitely prefer 'rubbish bin', but that's just me, I suppose.
+> Around
+> > > >> here, at least, noone refers to anything except 'rubbish' and
+> 'rubbish
+> > > >> bin', never 'garbage' or 'trash'. 'Wastebasket': I agree with what
+> you
+> > > >> said on that.
+> > > >
+> > > > In that case, I propose that the entries in the "Dialectical
+> Differences"
+> > > > table remain the same, apart from "Wastebasket" which should become
+> > > > "Rubbish Bin". Since we have already been using Wastebasket in our
+> Dapper
+> > > > translations, I suggest that this change takes place as of Edgy.
+> > > >
+> > > > Any thoughts on this?
+> > >
+> > > Where is the precedent for using "Rubbish Bin" in an operating
+> system?  It
+> > > sounds awfully unprofessional sounding to me.  I know "Trash" sounds
+> no
+> > > better, but can you imagine someone's face when they install an OS,
+> > > selecting en-GB, and seeing "Rubbish Bin" on their desktop?
+> >
+> > On the whole, the effect is no different from "Wastebasket", "Recycle
+> Bin", or
+> > as you yourself have mentioned, "Trash". My point is that "Wastebasket"
+> > sounds odd in many places but AFAIK "Rubbish Bin" is quite universal
+> > worldwide (including the UK).
+>
+> I must agree that here - in Kent - Wastebasket sounds odd to me. I have
+> never said it; but when reading the word, it's just rather a mouthful.
+> I'd much agree that "Rubbish Bin" is much better, but a bit lengthy. It
+> may also sound a bit alien to the conservative; who (at least here) know
+> of the Rubbish Bin as the green "wheelie bin". Just "Rubbish" is
+> probably better still, but still carries a strange feel to it. Trash is
+> definitely a no-go, though.
+
+
+As has been said, "Rubbish Bin" sounds a little like naming Nautilus "File
+Cabinet" and the GIMP as "Artist's Workshop": it's nice to have a metaphor
+(Heil HIG!) but it doesn't work very well here.
+
+Google uses Deleted Items for GMail's "trash" folder. I think we should move
+away from the bin metaphor and instead use something like "deleted items"
+which is unambiguous.
+
+--
+Ben Goodger
+#391382
+---------------------
+
+Mi admiras religiajn; ili estas fine ebliĝinta solvi la maljunegan demandon
+"kiel oni povas vivi sencerbe?".
+
+
+--
+Ben Goodger
+#391382
+---------------------
+
+Mi admiras religiajn; ili estas fine ebliĝinta solvi la maljunegan demandon
+"kiel oni povas vivi sencerbe?".
