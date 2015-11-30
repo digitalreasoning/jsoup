@@ -17,27 +17,24 @@ public class FormattingVisitor implements NodeVisitor
 {
 	private StringBuilder accum = new StringBuilder();
 	private int width = 0;
-	private final int blockIndentSize;
+	private int currentListDepth = -1;
 	private final int maxLineLength;
 	private final int hrLineLength;
 	private final int listIndentSize;
 	private final String newLine;
 	private final boolean includeHyperlinkURLs;
 	private final boolean includeAlternateText;
-	private final boolean convertNonBreakingSpaces;
 	private final List<Character> listBullets;
 	private final String tableCellSeparator;
 
 	public FormattingVisitor(final RendererConfig config)
 	{
-		this.blockIndentSize = config.getBlockIndentSize();
 		this.maxLineLength = config.getMaxLineLength();
 		this.hrLineLength = config.getHrLineLength();
 		this.listIndentSize = config.getListIndentSize();
 		this.newLine = config.getNewLine();
 		this.includeHyperlinkURLs = config.isIncludeHyperlinkURLs();
 		this.includeAlternateText = config.isIncludeAlternateText();
-		this.convertNonBreakingSpaces = config.isConvertNonBreakingSpaces();
 		this.listBullets = config.getListBullets();
 		this.tableCellSeparator = config.getTableCellSeparator();
 	}
@@ -49,15 +46,58 @@ public class FormattingVisitor implements NodeVisitor
 		{
 			append(((TextNode) node).text());
 		}
+		else if (node.hasAttr("alt") && includeAlternateText)
+		{
+			append("[" + node.attr("alt") + "]");
+		}
+		else if (name.equals(HtmlTags.OL) || name.equals(HtmlTags.UL) || name.equals(HtmlTags.DL))
+		{
+			currentListDepth++;
+		}
 		else if (name.equals(HtmlTags.LI))
 		{
-			append(newLine + " * ");
+			final Node parent = node.parent();
+			final String parentName = parent.nodeName();
+
+			append(newLine);
+
+			if (parentName.equals(HtmlTags.UL))
+			{
+				int bulletIndex = currentListDepth % listBullets.size();
+				append(getIndentationStr(currentListDepth * listIndentSize) + listBullets.get(bulletIndex) + " ");
+			}
+			else if (parentName.equals(HtmlTags.OL))
+			{
+				int nodeIndex = -1;
+				for (Node child : parent.childNodes())
+				{
+					if (!child.nodeName().equals(HtmlTags.LI))
+					{
+						continue;
+					}
+					nodeIndex++;
+					if (node.equals(child))
+					{
+						append(getIndentationStr(currentListDepth * listIndentSize) + String.valueOf(nodeIndex + 1) + ". ");
+						break;
+					}
+				}
+			}
 		}
-		else if (name.equals(HtmlTags.DT))
+		else if (name.equals(HtmlTags.DD))
 		{
-			append("  ");
+			append(getIndentationStr(currentListDepth * listIndentSize));
 		}
-		else if (StringUtil.in(name, HtmlTags.P, HtmlTags.H1, HtmlTags.H2, HtmlTags.H3, HtmlTags.H4, HtmlTags.H5, HtmlTags.TR))
+		else if (name.equals(HtmlTags.HR))
+		{
+			append(newLine);
+		}
+		else if(name.equals(HtmlTags.BLOCKQUOTE))
+		{
+			append(newLine);
+		}
+		else if (StringUtil.in(name, HtmlTags.P, HtmlTags.H1, HtmlTags.H2,
+		                       HtmlTags.H3, HtmlTags.H4, HtmlTags.H5, HtmlTags.TR))
 		{
 			append(newLine);
 		}
@@ -66,17 +106,34 @@ public class FormattingVisitor implements NodeVisitor
 	public void tail(final Node node, final int depth)
 	{
 		final String name = node.nodeName();
-		if (StringUtil.in(name, HtmlTags.BR, HtmlTags.DD, HtmlTags.DT, HtmlTags.P, HtmlTags.H1, HtmlTags.H2, HtmlTags.H3, HtmlTags.H4, HtmlTags.H5))
+		if (StringUtil.in(name, HtmlTags.BR, HtmlTags.DD, HtmlTags.DT, HtmlTags.P, HtmlTags.H1,
+		                  HtmlTags.H2, HtmlTags.H3, HtmlTags.H4, HtmlTags.H5))
 		{
 			append(newLine);
 		}
-		else if (name.equals(HtmlTags.A))
+		else if (name.equals(HtmlTags.OL) || name.equals(HtmlTags.UL) || name.equals(HtmlTags.DL))
+		{
+			currentListDepth--;
+		}
+		else if (name.equals(HtmlTags.HR))
+		{
+			for (int i = 0; i < hrLineLength; i++)
+			{
+				append("-");
+			}
+			append(newLine);
+		}
+		else if (name.equals(HtmlTags.A) && includeHyperlinkURLs)
 		{
 			append(String.format(" <%s>", node.absUrl("href")));
 		}
+		else if (name.equals(HtmlTags.TH) || name.equals(HtmlTags.TD))
+		{
+			append(tableCellSeparator);
+		}
 	}
 
-	private void append(String text)
+	private void append(final String text)
 	{
 		if (text.startsWith(newLine))
 		{
@@ -115,6 +172,17 @@ public class FormattingVisitor implements NodeVisitor
 			accum.append(text);
 			width += text.length();
 		}
+	}
+
+	private String getIndentationStr(final int indentationCount)
+	{
+		final StringBuilder listIndentSb = new StringBuilder();
+		for (int i = 0; i < indentationCount; i++)
+		{
+			listIndentSb.append(" ");
+		}
+
+		return listIndentSb.toString();
 	}
 
 	@Override

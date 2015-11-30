@@ -1,21 +1,22 @@
 
-<span class="gmail_quote"></span><span class="e" id="q_10d26925735164d8_0">On 19/08/06, <b class="gmail_sendername">Toby Smithe</b> &lt;<a href="mailto:toby.smithe@gmail.com" target="_blank" onclick="return top.js.OpenExtLink(window,event,this)">
-toby.smithe@gmail.com</a>&gt; wrote:</span><div><div></div><div><span class="e" id="q_10d26925735164d8_2"><span class="gmail_quote"></span><blockquote class="gmail_quote" style="border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+<span class="gmail_quote"></span><div><div><span class="q"><span class="gmail_quote">On 23/07/06, <b class="gmail_sendername">Sridhar Dhanapalan</b> &lt;<a href="mailto:sridhar@dhanapalan.com" target="_blank" onclick="return top.js.OpenExtLink(window,event,this)">
+sridhar@dhanapalan.com</a>&gt; wrote:</span><blockquote class="gmail_quote" style="border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+On Sunday 23 July 2006 19:11, Enverex &lt;<a href="mailto:ben@atomnet.co.uk" target="_blank" onclick="return top.js.OpenExtLink(window,event,this)">ben@atomnet.co.uk</a>&gt; wrote:<br>&gt; Ok I'm a little annoyed now at why linux programs feel the need to clear
+<br>&gt; the *£%&quot;ing clipboard every time I close a program, so I just lost
+<br>&gt; everything I wrote out. Wonderful.<br><br>[OT] This is the way that X handles its clipboard. You can get around it by<br>using a clipboard manager like Klipper.<br><br>&gt; ANYWAY, as I was saying, I don't agree with any of the things in the
+<br>&gt; &quot;Dialectical Differences&quot; section other than &quot;Trash&quot;. Disk/c depends on<br>&gt; context. A &quot;Hard Disk&quot; is still a &quot;Hard Disk&quot; over here. Disc refers<br>&gt; purely to a &quot;round&quot; object (in the 2D sense; the Frisbee was a disc, I
+<br>&gt; had a compact disc, etc). Plugin/Plug-in is also contextual. Plugin<br>&gt; being a computer application add-on while plug-in refers to an action &quot;I<br>&gt; am going to plug-in my new mouse&quot; etc. Programme and Program are also
+<br>&gt; computer separated, with Programme referring to a TV programme (ex) and<br>&gt; Program being a computer program, i.e. &quot;I was watching a programme on<br>&gt; TV&quot; and &quot;Ben was getting annoyed with the Linux program clearing his
+<br>&gt; clipboard full of data&quot;.</blockquote></span></div><div><div><br>A hard disc is still made of discs.<br>I agree on the &quot;program&quot; bit, although this is just an americanisation as the original spelling was programme,
+i.e
+. a programme of instructions rather than a single one.<br>I spell the verb &quot;plug in&quot; and the computer noun &quot;plugin&quot; - for me there is no &quot;plug-in&quot;.<br></div></div><div><span class="q"><br><blockquote class="gmail_quote" style="border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
 
-&nbsp;On Sat, 2006-08-19 at 22:48 +1000, Sridhar Dhanapalan wrote:<br>&gt; On Saturday 19 August 2006 22:05, William Anderson &lt;<a href="mailto:neuro@well.com" target="_blank"
-onclick="return top.js.OpenExtLink(window,event,this)">
-neuro@well.com</a>&gt; wrote:<br>&gt; &gt; Sridhar Dhanapalan wrote:
-<br>&gt; &gt; &gt; On Tuesday 15 August 2006 19:46, &quot;Matthew Vermeulen&quot;<br>&gt; &gt; &gt; &lt;<a href="mailto:mattvermeulen@gmail.com" target="_blank" onclick="return top.js.OpenExtLink(window,event,this)">mattvermeulen@gmail.com
-</a>&gt;<br>&gt; &gt; &gt;<br>&gt; &gt; &gt; wrote:<br>
-&gt; &gt; &gt;&gt; I definitely prefer 'rubbish bin', but that's just me, I suppose. Around<br>&gt; &gt; &gt;&gt; here, at least, noone refers to anything except 'rubbish' and 'rubbish<br>&gt; &gt; &gt;&gt; bin', never 'garbage' or 'trash'. 'Wastebasket': I agree with what you
-<br>&gt; &gt; &gt;&gt; said on that.<br>&gt; &gt; &gt;<br>&gt; &gt; &gt; In that case, I propose that the entries in the &quot;Dialectical Differences&quot;<br>&gt; &gt; &gt; table remain the same, apart from &quot;Wastebasket&quot; which should become
-<br>&gt; &gt; &gt; &quot;Rubbish Bin&quot;. Since we have already been using Wastebasket in our Dapper<br>&gt; &gt; &gt; translations, I suggest that this change takes place as of Edgy.<br>&gt; &gt; &gt;<br>&gt; &gt; &gt; Any thoughts on this?
-<br>&gt; &gt;<br>&gt; &gt; Where is the precedent for using &quot;Rubbish Bin&quot; in an operating system?&nbsp;&nbsp;It<br>&gt; &gt; sounds awfully unprofessional sounding to me.&nbsp;&nbsp;I know &quot;Trash&quot; sounds no<br>&gt; &gt; better, but can you imagine someone's face when they install an OS,
-<br>&gt; &gt; selecting en-GB, and seeing &quot;Rubbish Bin&quot; on their desktop?<br>&gt;<br>&gt; On the whole, the effect is no different from &quot;Wastebasket&quot;, &quot;Recycle Bin&quot;, or<br>&gt; as you yourself have mentioned, &quot;Trash&quot;. My point is that &quot;Wastebasket&quot;
-<br>&gt; sounds odd in many places but AFAIK &quot;Rubbish Bin&quot; is quite universal<br>&gt; worldwide (including the UK).<br><br>I must agree that here - in Kent - Wastebasket sounds odd to me. I have<br>never said it; but when reading the word, it's just rather a mouthful.
-<br>I'd much agree that &quot;Rubbish Bin&quot; is much better, but a bit lengthy. It<br>may also sound a bit alien to the conservative; who (at least here) know<br>of the Rubbish Bin as the green &quot;wheelie bin&quot;. Just &quot;Rubbish&quot; is
-<br>probably better still, but still carries a strange feel to it. Trash is<br>definitely a no-go, though.</blockquote></span></div><div><div><br>As has been said, &quot;Rubbish Bin&quot; sounds a little like naming Nautilus &quot;File Cabinet&quot; and the GIMP as &quot;Artist's Workshop&quot;: it's nice to have a metaphor (Heil HIG!) but it doesn't work very well here.
-<br><br>Google uses Deleted Items for GMail's &quot;trash&quot; folder. I think we should move away from the bin metaphor and instead use something like &quot;deleted items&quot; which is unambiguous.<br clear="all"></div>
-
-</div></div><div><span class="e" id="q_10d26925735164d8_4"><br>-- <br>Ben Goodger<br>#391382<br>---------------------<br><br>Mi admiras religiajn; ili estas fine ebliĝinta solvi la maljunegan demandon &quot;kiel oni povas vivi sencerbe?&quot;.
+&nbsp;Is this 'computer separation' the way it is 'supposed' to be, or just the<br>influence of the USA over the computer industry from its youth?<br><br>&gt; Be careful that over
+here we don't just call<br>&gt; everything &quot;gasoline&quot; too, petroleum is petrol and diesel is diesel.
+<br><br>en-US has that distinction as well. &quot;Gasoline&quot; directly maps to &quot;Petrol&quot;,<br>and &quot;Diesel&quot; is the same in both languages (AFAIK).<br><br>--<br>Sridhar Dhanapalan<br>&nbsp;&nbsp;{GnuPG/OpenPGP:
+<a href="http://www.dhanapalan.com/yama.asc" target="_blank" onclick="return top.js.OpenExtLink(window,event,this)">
+http://www.dhanapalan.com/yama.asc</a><br>&nbsp;&nbsp; 0x049D38B4 : A7A9 8A02 78CB AB1B FCE4 EEC6 2DD9 249B 049D 38B4}<br><br>&quot;Nothing would please me more than being able to hire ten programmers and<br>deluge the hobby market with good software.&quot;
+<br>&nbsp;&nbsp;- Bill Gates, 'An Open Letter to Hobbyists', 1976-02-03</blockquote></span></div><div><div><br>Yes, but Bill Gates is a ruthlessly capitalistic tit. <br></div></div></div><div><span class="e" id="q_10c9d6e9344ce246_5">
+<br>-- <br>Ben Goodger<br>#391382<br>---------------------<br><br>Mi admiras religiajn; ili estas fine ebliĝinta solvi la maljunegan demandon &quot;kiel oni povas vivi sencerbe?&quot;.
 </span></div><br clear="all"><br>-- <br>Ben Goodger<br>#391382<br>---------------------<br><br>Mi admiras religiajn; ili estas fine ebliĝinta solvi la maljunegan demandon &quot;kiel oni povas vivi sencerbe?&quot;.
+
